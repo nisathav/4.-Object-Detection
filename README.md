@@ -16,10 +16,10 @@ start the simulation,
 `roslaunch pr2_tc_gazebo main_elephant_person.launch`
 
 create the package and the launch file,
-`cd ~/catkin_ws/src
- catkin_create_pkg my_object_recognition_pkg rospy
- roscd my_object_recognition_pkg
- touch launch/yolo_v2_tiny.launch`
+`cd ~/catkin_ws/src`
+`catkin_create_pkg my_object_recognition_pkg rospy`
+`roscd my_object_recognition_pkg`
+`touch launch/yolo_v2_tiny.launch`
 
 refer yolo_v2_tiny.launch file
 
