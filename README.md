@@ -22,7 +22,8 @@ create the package and the launch file,
  touch launch/yolo_v2_tiny.launch`
 
 yolo_v2_tiny.launch,
-`<?xml version="1.0" encoding="utf-8"?>
+{
+<?xml version="1.0" encoding="utf-8"?>
 
 <launch>
   
@@ -37,7 +38,7 @@ yolo_v2_tiny.launch,
     <arg name="image" value="$(arg image)" />
   </include>
 
-</launch>`
+</launch> }
 
 run the above launch file,
 `roslaunch my_object_recognition_pkg yolo_v2_tiny.launch`
